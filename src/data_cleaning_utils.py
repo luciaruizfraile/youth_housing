@@ -96,3 +96,16 @@ def clean_dataframe(df):
     report_nulls_duplicates(df)
     overview(df)
     return df
+
+def limpiar_columna_total(df, columna='Total'):
+    """
+    Limpia una columna tipo string con números europeos:
+    elimina puntos de miles, reemplaza comas por punto decimal y convierte a float.
+    """
+    df = df.copy()
+    df[columna] = df[columna].astype(str)
+    df[columna] = df[columna].str.replace('.', '', regex=False)
+    df[columna] = df[columna].str.replace(',', '.', regex=False)
+    df[columna] = pd.to_numeric(df[columna], errors='coerce')
+    df = df.dropna(subset=[columna])
+    return df
