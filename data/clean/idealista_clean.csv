@@ -9,14 +9,14 @@ Comunidades y Ciudades Autónomas,Año,Precio m2
 08 Castilla - La Mancha,2025,961
 09 Cataluña,2025,2560
 18 Ceuta,2025,2325
-,2025,2207
-,2025,3179
+10 Comunitat Valenciana,2025,2207
+16 País Vasco,2025,3179
 11 Extremadura,2025,982
 12 Galicia,2025,1434
 "17 Rioja, La",2025,1362
-,2025,4234
+"13 Madrid, Comunidad de",2025,4234
 19 Melilla,2025,2073
-,2025,1458
+"14 Murcia, Región de",2025,1458
 "15 Navarra, Comunidad Foral de",2025,1753
 01 Andalucía,2024,2318
 02 Aragón,2024,1497
@@ -28,14 +28,14 @@ Comunidades y Ciudades Autónomas,Año,Precio m2
 08 Castilla - La Mancha,2024,957
 09 Cataluña,2024,2495
 18 Ceuta,2024,2350
-,2024,2061
-,2024,3076
+10 Comunitat Valenciana,2024,2061
+16 País Vasco,2024,3076
 11 Extremadura,2024,986
 12 Galicia,2024,1437
 "17 Rioja, La",2024,1349
-,2024,3771
+"13 Madrid, Comunidad de",2024,3771
 19 Melilla,2024,1994
-,2024,1379
+"14 Murcia, Región de",2024,1379
 "15 Navarra, Comunidad Foral de",2024,1795
 01 Andalucía,2023,2078
 02 Aragón,2023,1417
@@ -47,14 +47,14 @@ Comunidades y Ciudades Autónomas,Año,Precio m2
 08 Castilla - La Mancha,2023,917
 09 Cataluña,2023,2339
 18 Ceuta,2023,2187
-,2023,1776
-,2023,2864
+10 Comunitat Valenciana,2023,1776
+16 País Vasco,2023,2864
 11 Extremadura,2023,959
 12 Galicia,2023,1375
 "17 Rioja, La",2023,1327
-,2023,3208
+"13 Madrid, Comunidad de",2023,3208
 19 Melilla,2023,1934
-,2023,1186
+"14 Murcia, Región de",2023,1186
 "15 Navarra, Comunidad Foral de",2023,1687
 01 Andalucía,2022,1891
 02 Aragón,2022,1333
@@ -66,14 +66,14 @@ Comunidades y Ciudades Autónomas,Año,Precio m2
 08 Castilla - La Mancha,2022,889
 09 Cataluña,2022,2295
 18 Ceuta,2022,2124
-,2022,1596
-,2022,2773
+10 Comunitat Valenciana,2022,1596
+16 País Vasco,2022,2773
 11 Extremadura,2022,943
 12 Galicia,2022,1338
 "17 Rioja, La",2022,1260
-,2022,3062
+"13 Madrid, Comunidad de",2022,3062
 19 Melilla,2022,1885
-,2022,1080
+"14 Murcia, Región de",2022,1080
 "15 Navarra, Comunidad Foral de",2022,1568
 01 Andalucía,2021,1778
 02 Aragón,2021,1319
@@ -85,14 +85,14 @@ Comunidades y Ciudades Autónomas,Año,Precio m2
 08 Castilla - La Mancha,2021,879
 09 Cataluña,2021,2277
 18 Ceuta,2021,2084
-,2021,1479
-,2021,2690
+10 Comunitat Valenciana,2021,1479
+16 País Vasco,2021,2690
 11 Extremadura,2021,941
 12 Galicia,2021,1328
 "17 Rioja, La",2021,1265
-,2021,2897
+"13 Madrid, Comunidad de",2021,2897
 19 Melilla,2021,1842
-,2021,1063
+"14 Murcia, Región de",2021,1063
 "15 Navarra, Comunidad Foral de",2021,1484
 01 Andalucía,2020,1660
 02 Aragón,2020,1318
@@ -104,12 +104,12 @@ Comunidades y Ciudades Autónomas,Año,Precio m2
 08 Castilla - La Mancha,2020,868
 09 Cataluña,2020,2244
 18 Ceuta,2020,2246
-,2020,1413
-,2020,2641
+10 Comunitat Valenciana,2020,1413
+16 País Vasco,2020,2641
 11 Extremadura,2020,921
 12 Galicia,2020,1327
 "17 Rioja, La",2020,1240
-,2020,2774
+"13 Madrid, Comunidad de",2020,2774
 19 Melilla,2020,1777
-,2020,1048
+"14 Murcia, Región de",2020,1048
 "15 Navarra, Comunidad Foral de",2020,1451
