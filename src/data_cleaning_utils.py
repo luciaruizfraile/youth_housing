@@ -109,3 +109,70 @@ def limpiar_columna_total(df, columna='Total'):
     df[columna] = pd.to_numeric(df[columna], errors='coerce')
     df = df.dropna(subset=[columna])
     return df
+
+def limpiar_comillas_ccaa(df, columna='Comunidades y Ciudades Autónomas'):
+    """
+    Elimina comillas dobles o simples de los valores de la columna de CCAA.
+
+    Args:
+        df (pd.DataFrame): DataFrame con la columna a limpiar.
+        columna (str): Nombre de la columna con nombres de CCAA.
+
+    Returns:
+        pd.DataFrame: DataFrame con valores limpios en la columna indicada.
+    """
+    df = df.copy()
+    df[columna] = df[columna].str.replace('"', '', regex=False)
+    df[columna] = df[columna].str.replace("'", '', regex=False)
+    df[columna] = df[columna].str.strip()
+    return df
+
+
+def convertir_periodo_con_detalles(df, columna='Periodo'):
+    """
+    Convierte la columna 'Periodo' (formato '2024T1' o '2024M03') en formato datetime,
+    y crea columnas auxiliares: 'Fecha', 'Año', 'Trimestre', 'Mes'.
+
+    Args:
+        df (pd.DataFrame): El DataFrame original.
+        columna (str): El nombre de la columna de periodo a procesar.
+
+    Returns:
+        pd.DataFrame: El DataFrame con columnas nuevas: 'Fecha', 'Año', 'Trimestre', 'Mes'.
+    """
+    import pandas as pd
+
+    df = df.copy()
+
+    def parse_periodo(valor):
+        if 'T' in valor:
+            año, trimestre = valor.split('T')
+            mes = {'1': '01', '2': '04', '3': '07', '4': '10'}[trimestre]
+            return pd.to_datetime(f"{año}-{mes}-01")
+        elif 'M' in valor:
+            return pd.to_datetime(valor.replace('M', '') + '01', format='%Y%m%d')
+        else:
+            return pd.NaT
+
+    df['Fecha'] = df[columna].apply(parse_periodo)
+    df['Año'] = df['Fecha'].dt.year
+    df['Mes'] = df['Fecha'].dt.month
+    df['Trimestre'] = df['Fecha'].dt.quarter
+
+    return df
+
+def convertir_int32_a_int64(df):
+    """
+    Convierte todas las columnas de tipo int32 a int64 en un DataFrame.
+
+    Args:
+        df (pd.DataFrame): El DataFrame original.
+
+    Returns:
+        pd.DataFrame: El DataFrame con tipos de datos actualizados a int64 donde corresponde.
+    """
+    df = df.copy()
+    for col in df.select_dtypes(include=['int32']).columns:
+        df[col] = df[col].astype('int64')
+    return df
+
