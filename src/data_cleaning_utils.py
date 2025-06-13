@@ -176,3 +176,29 @@ def convertir_int32_a_int64(df):
         df[col] = df[col].astype('int64')
     return df
 
+import pandas as pd
+import unicodedata
+
+def limpiar_nombre(nombre):
+    # Pasar a string y quitar espacios
+    nombre = str(nombre).strip()
+    # Eliminar tildes
+    nombre = ''.join((c for c in unicodedata.normalize('NFD', nombre) if unicodedata.category(c) != 'Mn'))
+    # Normalizar uso de guiones (opcional, según tu caso)
+    nombre = nombre.replace(" - ", "-").replace(" ", " ").title()
+    # Reemplazos específicos (puedes ampliar esta lista)
+    reemplazos = {
+        "Castilla La Mancha": "Castilla-La Mancha",
+        "Castilla Y Leon": "Castilla y León",
+        "Comunidad Valenciana": "Comunitat Valenciana",
+        "La Rioja": "La Rioja",
+        "Madrid": "Comunidad de Madrid",
+        "Murcia": "Región de Murcia",
+        "Ceuta": "Ciudad Autónoma de Ceuta",
+        "Melilla": "Ciudad Autónoma de Melilla"
+    }
+    return reemplazos.get(nombre, nombre)
+
+def estandarizar_comunidades(df, columna_original):
+    df[columna_original] = df[columna_original].apply(limpiar_nombre)
+    return df
