@@ -1,7 +1,5 @@
 USE youth_housing; 
 
-
-
 -- CAMBIO EN TODAS LAS QUERIES:
 -- de:  WHERE decil = '5'
 -- a:    WHERE decil = 'Total'

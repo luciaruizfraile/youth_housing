@@ -1,20 +1,20 @@
-comunidades_y_ciudades_autónomas,esfuerzo_medio
-08 Castilla-La Mancha,0.46
-11 Extremadura,0.53
-07 Castilla Y Leon,0.56
-"14 Murcia, Region De",0.58
-"17 Rioja, La",0.62
-"03 Asturias, Principado De",0.63
-02 Aragon,0.66
-12 Galicia,0.66
-"15 Navarra, Comunidad Foral De",0.66
-06 Cantabria,0.71
-10 Comunitat Valenciana,0.79
-19 Melilla,0.81
-01 Andalucia,0.96
-18 Ceuta,0.97
-09 Cataluna,1.02
-05 Canarias,1.1
-16 Pais Vasco,1.11
-"13 Madrid, Comunidad De",1.24
-"04 Balears, Illes",1.67
+comunidades_y_ciudades_autónomas;esfuerzo_medio
+08 Castilla-La Mancha;0.46
+11 Extremadura;0.53
+07 Castilla Y Leon;0.56
+14 Murcia, Region De;0.58
+17 Rioja, La;0.62
+03 Asturias, Principado De;0.63
+02 Aragon;0.66
+12 Galicia;0.66
+15 Navarra, Comunidad Foral De;0.66
+06 Cantabria;0.71
+10 Comunitat Valenciana;0.79
+19 Melilla;0.81
+01 Andalucia;0.96
+18 Ceuta;0.97
+09 Cataluna;1.02
+05 Canarias;1.1
+16 Pais Vasco;1.11
+13 Madrid, Comunidad De;1.24
+04 Balears, Illes;1.67
