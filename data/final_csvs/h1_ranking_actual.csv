@@ -1,20 +1,20 @@
-comunidades_y_ciudades_autónomas,año,esfuerzo_m2_mensual
-08 Castilla-La Mancha,2023,5.43
-11 Extremadura,2023,6.01
-07 Castilla Y Leon,2023,6.48
-"14 Murcia, Region De",2023,7.02
-"17 Rioja, La",2023,7.08
-"03 Asturias, Principado De",2023,7.38
-02 Aragon,2023,7.58
-12 Galicia,2023,7.72
-"15 Navarra, Comunidad Foral De",2023,8.05
-06 Cantabria,2023,8.14
-19 Melilla,2023,9.82
-10 Comunitat Valenciana,2023,10.25
-18 Ceuta,2023,11.49
-09 Cataluna,2023,11.51
-01 Andalucia,2023,11.87
-16 Pais Vasco,2023,13.1
-05 Canarias,2023,14.68
-"13 Madrid, Comunidad De",2023,14.95
-"04 Balears, Illes",2023,21.9
+comunidades_y_ciudades_autónomas,esfuerzo_m2_mensual
+08 Castilla-La Mancha,0.45
+11 Extremadura,0.5
+07 Castilla Y Leon,0.54
+"17 Rioja, La",0.59
+"14 Murcia, Region De",0.59
+"03 Asturias, Principado De",0.62
+02 Aragon,0.63
+12 Galicia,0.64
+"15 Navarra, Comunidad Foral De",0.67
+06 Cantabria,0.68
+19 Melilla,0.82
+10 Comunitat Valenciana,0.85
+09 Cataluna,0.96
+18 Ceuta,0.96
+01 Andalucia,0.99
+16 Pais Vasco,1.09
+05 Canarias,1.22
+"13 Madrid, Comunidad De",1.25
+"04 Balears, Illes",1.83
