@@ -66,13 +66,13 @@ This project analyzes the real purchasing power of young people in Spain when it
 
 ### 1. Evolución del esfuerzo joven vs general y brecha por CCAA
 
-![Dashboard Esfuerzo Joven y General](./images/Esfuerzo%20joven%20y%20general.png)
+![Dashboard Esfuerzo Joven y General](./images/esfuerzo_joven_general.png)
 
 ---
 
 ### 2. Precio, interés y esfuerzo por CCAA
 
-![Dashboard Precio y Esfuerzo](./images/Esfuerzo%20precio%20interes%20ccaa%20.png)
+![Dashboard Precio y Esfuerzo](./images/esfuerzo_precio_interes_ccaa.png)
 
 ---
 
