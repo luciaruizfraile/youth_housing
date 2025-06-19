@@ -62,6 +62,20 @@ This project analyzes the real purchasing power of young people in Spain when it
 
 ---
 
+## 📊 Visualizaciones del Dashboard
+
+### 1. Evolución del esfuerzo joven vs general y brecha por CCAA
+
+![Dashboard Esfuerzo Joven y General](./images/Esfuerzo%20joven%20y%20general.png)
+
+---
+
+### 2. Precio, interés y esfuerzo por CCAA
+
+![Dashboard Precio y Esfuerzo](./images/Esfuerzo%20precio%20interes%20ccaa%20.png)
+
+---
+
 ## About Me
 
 I'm Lucía, a data analyst passionate about social impact and storytelling through data.
